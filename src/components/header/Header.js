@@ -76,7 +76,7 @@ const Header = () => {
               <MenuItem onClick={() => nav("/eveon-pronto")}>Pronto</MenuItem>
               <MenuItem onClick={() => nav("/eveon-joy")}>JOY</MenuItem>
               <MenuItem onClick={() => nav("/eveon-zippy")}>Zippy</MenuItem>
-              <MenuItem onClick={() => nav("/")}>Flora</MenuItem>
+              <MenuItem onClick={() => nav("/eveon-flora")}>Flora</MenuItem>
 
             </MenuList>
           </Menu>
