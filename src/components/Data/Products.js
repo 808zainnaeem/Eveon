@@ -141,7 +141,7 @@ export const products = [
       },
       {
         title: "Warranty Period",
-        value: "18 Months Motor & 12 Months Batteries and Controller warranty",
+        value: "24 Months Motor & 18 Months Batteries and Controller warranty",
       },
       {
         title: "Cruise control",
@@ -228,7 +228,7 @@ export const products = [
       },
       {
         title: "Warranty Period",
-        value: "18 Months Motor & 12 Months Batteries and Controller warranty",
+        value: "24 Months Motor & 18 Months Batteries and Controller warranty",
       },
       {
         title: "Cruise control",
@@ -315,7 +315,7 @@ export const products = [
       },
       {
         title: "Warranty Period",
-        value: "18 Months Motor & 12 Months Batteries and Controller warranty",
+        value: "24 Months Motor & 18 Months Batteries and Controller warranty",
       },
       {
         title: "Cruise control",
@@ -413,7 +413,7 @@ export const products = [
       },
       {
         title: "Warranty Period",
-        value: "18 Months Motor & 12 Months Batteries and Controller warranty",
+        value: "24 Months Motor & 18 Months Batteries and Controller warranty",
       },
       {
         title: "Cruise control",
@@ -434,6 +434,88 @@ export const products = [
   {
     id: 5,
     name: "ZIPPY",
+    images: {
+      Blue: [Z4, Z3, Z5, Z6, Z7, Z8],
+      Black: [ZB1, ZB2],
+    },
+    featureImages: {
+      Blue: [
+        // { image: Jstorage, title: "Storage Space" },
+        // { image: tyre, title: "Tyre" },
+        // { image: diskbrake, title: "Disk Brake" },
+        { image: Z3, title: "Handle and meter view" },
+        { image: Z4, title: "Full Side view" },
+        { image: Z5, title: "Front Side view" },
+
+        { image: Z6, title: "Top view" },
+        { image: Z7, title: "Head-light and front storage" },
+        { image: Z8, title: "Tyre and Bottom view" },
+
+        // { image: digitalmeter, title: "Digital Meter" },
+        // { image: cruidecontrol, title: "Cruise Control" },
+      ],
+      Black: [
+        { image: ZB1, title: "Front view" },
+        { image: ZB2, title: "Tyre and Storage view" },
+        // { image: diskbrake, title: "Disk Brake" },
+        // { image: daylight, title: "Daylight Running Lamp" },
+        // { image: digitalmeter, title: "Digital Meter" },
+        // { image: cruidecontrol, title: "Cruise Control" },
+      ],
+    },
+    price: "97000",
+    colors: ["Blue", "Black"],
+    specifications: {
+      Motor: "350 W Pure Copper Mottor",
+      Speed: "30 - 35 KM/H",
+      Battery: "48V 12AH Top brand Chilwee",
+      Loading: "80 KG",
+      Range: "35 - 40 KM",
+      Brake: "DRUM",
+    },
+    description: `The Zippy electric bike is a versatile and very affordable option, perfect for bachelors, students, and anyone looking for a practical mode of transportation. It features a 350 W motor, enabling speeds of 35 km/h, making it well-suited for city commutes or casual rides. The bike is equipped with a 48V 12AH Chilwee Brand battery, ensuring you can easily cover your daily travel needs.`,
+    detailedSpecifications: [
+      {
+        title: "Speed",
+        value: "30 - 35 Km/h",
+      },
+      {
+        title: "Range",
+        value: "35 - 40 Km",
+      },
+      {
+        title: "Battery Type",
+        value: "48V 12AH top brand Chilwee",
+      },
+      {
+        title: "Cost",
+        value: "0.5 Unit / Charging",
+      },
+      {
+        title: "Anti-theft System",
+        value: "Available",
+      },
+      {
+        title: "Electric Motor Power",
+        value: "350 Watts",
+      },
+      {
+        title: "Loading",
+        value: "80 kg",
+      },
+      {
+        title: "Warranty Period",
+        value: "12 Months Motor & 06 Months Batteries and Controller warranty",
+      },
+      {
+        title: "Speed Ride",
+        value: "3 Modes available",
+      },
+    ],
+  },
+  {
+    id: 6,
+    name: "Sample",
     images: {
       Blue: [Z4, Z3, Z5, Z6, Z7, Z8],
       Black: [ZB1, ZB2],

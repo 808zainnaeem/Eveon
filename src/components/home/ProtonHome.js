@@ -144,7 +144,7 @@ const ProtonHome = () => {
                 textAlign={'center'}
 
               >
-                12 month
+                18 month
                 <chakra.span fontWeight={'light'}>
                   {' '}
                   Battery Warranty

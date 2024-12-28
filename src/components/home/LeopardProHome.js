@@ -142,7 +142,7 @@ const LeopardProHome = () => {
                 fontWeight={"600"}
                 textAlign={"center"}
               >
-                12 month
+                18 month
                 <chakra.span fontWeight={"light"}>
                   {" "}
                   Battery Warranty

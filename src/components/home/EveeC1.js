@@ -406,7 +406,7 @@ const EveeC1 = () => {
                 fontWeight={'400'}
                 color={'#000'}
               >
-                12 month
+                18 month
               </Text>
               <Heading
                 fontSize={{ base: 'xs', md: 'sm', lg: 'sm', xl: 'sm' }}
