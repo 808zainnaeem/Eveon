@@ -72,6 +72,16 @@ import Z6 from "../../assets/Pshoot/ZIPPY/Z6.png";
 import Z7 from "../../assets/Pshoot/ZIPPY/Z7.png";
 import Z8 from "../../assets/Pshoot/ZIPPY/Z8.png";
 
+
+
+
+import F1 from "../../assets/Pshoot/Flora/F1.png";
+import F2 from "../../assets/Pshoot/Flora/F2.png";
+import F3 from "../../assets/Pshoot/Flora/F3.png";
+import F4 from "../../assets/Pshoot/Flora/F4.png";
+import F5 from "../../assets/Pshoot/Flora/F5.png";
+import F6 from "../../assets/Pshoot/Flora/F6.png";
+
 export const products = [
   {
     id: 1,
@@ -514,60 +524,63 @@ export const products = [
     ],
   },
   {
-    id: 6,
-    name: "Sample",
+    id:6,
+    name: "Flora",
     images: {
-      Blue: [Z4, Z3, Z5, Z6, Z7, Z8],
-      Black: [ZB1, ZB2],
+      Pink: [F2, F5, F1, F6],
+      Yellow: [F3, F4, F6],
     },
     featureImages: {
-      Blue: [
+      Pink: [
         // { image: Jstorage, title: "Storage Space" },
         // { image: tyre, title: "Tyre" },
         // { image: diskbrake, title: "Disk Brake" },
-        { image: Z3, title: "Handle and meter view" },
-        { image: Z4, title: "Full Side view" },
-        { image: Z5, title: "Front Side view" },
+        { image: F1, title: "Back Tire view" },
+        { image: F2, title: "Full Side view" },
+        { image: F5, title: "Back Side view" },
+        { image: F6, title: "Curze" },
 
-        { image: Z6, title: "Top view" },
-        { image: Z7, title: "Head-light and front storage" },
-        { image: Z8, title: "Tyre and Bottom view" },
+        // { image: Z6, title: "Top view" },
+        // { image: Z7, title: "Head-light and front storage" },
+        // { image: Z8, title: "Tyre and Bottom view" },
 
         // { image: digitalmeter, title: "Digital Meter" },
         // { image: cruidecontrol, title: "Cruise Control" },
       ],
-      Black: [
-        { image: ZB1, title: "Front view" },
-        { image: ZB2, title: "Tyre and Storage view" },
+      Yellow: [
+        { image: F3, title: " Side view" },
+        { image: F4, title: "Front  view" },
+        { image: F6, title: "Curze" },
+
         // { image: diskbrake, title: "Disk Brake" },
         // { image: daylight, title: "Daylight Running Lamp" },
         // { image: digitalmeter, title: "Digital Meter" },
         // { image: cruidecontrol, title: "Cruise Control" },
       ],
     },
-    price: "97000",
-    colors: ["Blue", "Black"],
+    price: "153000",
+    colors: ["Pink", "Yellow"],
     specifications: {
-      Motor: "350 W Pure Copper Mottor",
-      Speed: "30 - 35 KM/H",
-      Battery: "48V 12AH Top brand Chilwee",
-      Loading: "80 KG",
-      Range: "35 - 40 KM",
-      Brake: "DRUM",
+      Motor: "600 W Pure Copper Mottor",
+      Speed: "45 KM/H",
+      Battery: "60V 23AH Top brand Chilwee",
+      // Loading: "80 KG",
+      Range: "55 - 50 KM",
+      Brake: "FRONT DISK REAR DISK BRAKE",
     },
-    description: `The Zippy electric bike is a versatile and very affordable option, perfect for bachelors, students, and anyone looking for a practical mode of transportation. It features a 350 W motor, enabling speeds of 35 km/h, making it well-suited for city commutes or casual rides. The bike is equipped with a 48V 12AH Chilwee Brand battery, ensuring you can easily cover your daily travel needs.`,
+    description: `The FLORA electric bike is a versatile and affordable option, perfect for bachelors, students, and anyone looking for a practical mode of transportation. It features a  W BLDC QS motor, enabling speeds of 40-45 km/h, making it well-suited for city commutes or casual rides. The bike is equipped with a 60V 26 AH graphene battery, providing a range of 55-60 km, ensuring you can easily cover your daily travel needs.`,
     detailedSpecifications: [
       {
         title: "Speed",
-        value: "30 - 35 Km/h",
+        value: "45 Km/h",
       },
       {
         title: "Range",
-        value: "35 - 40 Km",
+        value: "55 - 50 Km",
       },
       {
         title: "Battery Type",
-        value: "48V 12AH top brand Chilwee",
+        value: "60V 23AH top brand Chilwee",
       },
       {
         title: "Cost",
@@ -579,15 +592,15 @@ export const products = [
       },
       {
         title: "Electric Motor Power",
-        value: "350 Watts",
+        value: "600 Watts",
       },
-      {
-        title: "Loading",
-        value: "80 kg",
-      },
+      // {
+      //   title: "Loading",
+      //   value: "80 kg",
+      // },
       {
         title: "Warranty Period",
-        value: "12 Months Motor & 06 Months Batteries and Controller warranty",
+        value: "24 Months Motor & 18 Months Batteries and Controller warranty",
       },
       {
         title: "Speed Ride",
